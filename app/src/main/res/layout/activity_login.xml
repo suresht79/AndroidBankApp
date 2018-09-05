@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please enter your username/password and click Submit!!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter User Id" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00ff00"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Passsword" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00ff00" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/tvFailure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="Login Failed!! Please try again"
+        android:textColor="#ff0000"
+        android:visibility="invisible" />
+
+</LinearLayout>

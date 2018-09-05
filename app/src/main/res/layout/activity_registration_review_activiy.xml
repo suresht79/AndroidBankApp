@@ -1,0 +1,122 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <TextView android:text="Registration Review Page"
+      android:layout_gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="50dp"
+      android:textStyle="bold"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginRight="10dp"
+        android:text="First Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtFirstName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="Last Name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtLastName"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_margin="5dp">
+    <TextView android:text="Email"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Set Newsletter"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="115dp"
+        android:layout_height="15dp"
+        android:clickable="true"
+        android:text="CheckBox"
+        android:textColor="#000000" />
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/submitButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|center_horizontal"
+      android:text="Submit" />
+
+
+
+
+
+
+
+
+</LinearLayout>
+
